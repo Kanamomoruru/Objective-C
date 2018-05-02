@@ -3,7 +3,7 @@
 //  Assignment8
 //
 //  Created by Lucas Craveiro on 2018-04-24.
-//  Copyright © 2018 Lucas Craveiro. All rights reserved.
+//  Copyright © 2018 Kanata Shimomoto. All rights reserved.
 //
 
 #import "Pizza.h"
