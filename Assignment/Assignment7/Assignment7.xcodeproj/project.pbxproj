@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D8D7BF002085467F00F49D88 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D7BEFF2085467F00F49D88 /* main.m */; };
-		D8D7BF0820854C8100F49D88 /* Practice.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D7BF0720854C8100F49D88 /* Practice.m */; };
-		D8D7BF0B208556D100F49D88 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D7BF0A208556D100F49D88 /* Person.m */; };
+		D8D7BFD0208E78CE00F49D88 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D7BFCF208E78CE00F49D88 /* main.m */; };
+		D8D7BFD8208E79B400F49D88 /* Doctor.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D7BFD7208E79B400F49D88 /* Doctor.m */; };
+		D8D7BFDB208E79CA00F49D88 /* Patient.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D7BFDA208E79CA00F49D88 /* Patient.m */; };
+		D8D7BFDE208E974500F49D88 /* prescription.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D7BFDD208E974500F49D88 /* prescription.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		D8D7BEFA2085467F00F49D88 /* CopyFiles */ = {
+		D8D7BFCA208E78CE00F49D88 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -25,16 +26,18 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		D8D7BEFC2085467F00F49D88 /* ObjectiveCPractice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ObjectiveCPractice; sourceTree = BUILT_PRODUCTS_DIR; };
-		D8D7BEFF2085467F00F49D88 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D8D7BF0620854C8100F49D88 /* Practice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Practice.h; sourceTree = "<group>"; };
-		D8D7BF0720854C8100F49D88 /* Practice.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Practice.m; sourceTree = "<group>"; };
-		D8D7BF09208556D100F49D88 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
-		D8D7BF0A208556D100F49D88 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		D8D7BFCC208E78CE00F49D88 /* Assignment7 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Assignment7; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8D7BFCF208E78CE00F49D88 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D8D7BFD6208E79B400F49D88 /* Doctor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Doctor.h; sourceTree = "<group>"; };
+		D8D7BFD7208E79B400F49D88 /* Doctor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Doctor.m; sourceTree = "<group>"; };
+		D8D7BFD9208E79CA00F49D88 /* Patient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Patient.h; sourceTree = "<group>"; };
+		D8D7BFDA208E79CA00F49D88 /* Patient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Patient.m; sourceTree = "<group>"; };
+		D8D7BFDC208E974500F49D88 /* prescription.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = prescription.h; sourceTree = "<group>"; };
+		D8D7BFDD208E974500F49D88 /* prescription.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = prescription.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D8D7BEF92085467F00F49D88 /* Frameworks */ = {
+		D8D7BFC9208E78CE00F49D88 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -44,101 +47,104 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D8D7BEF32085467F00F49D88 = {
+		D8D7BFC3208E78CE00F49D88 = {
 			isa = PBXGroup;
 			children = (
-				D8D7BEFE2085467F00F49D88 /* ObjectiveCPractice */,
-				D8D7BEFD2085467F00F49D88 /* Products */,
+				D8D7BFCE208E78CE00F49D88 /* Assignment7 */,
+				D8D7BFCD208E78CE00F49D88 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		D8D7BEFD2085467F00F49D88 /* Products */ = {
+		D8D7BFCD208E78CE00F49D88 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D8D7BEFC2085467F00F49D88 /* ObjectiveCPractice */,
+				D8D7BFCC208E78CE00F49D88 /* Assignment7 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D8D7BEFE2085467F00F49D88 /* ObjectiveCPractice */ = {
+		D8D7BFCE208E78CE00F49D88 /* Assignment7 */ = {
 			isa = PBXGroup;
 			children = (
-				D8D7BEFF2085467F00F49D88 /* main.m */,
-				D8D7BF0620854C8100F49D88 /* Practice.h */,
-				D8D7BF0720854C8100F49D88 /* Practice.m */,
-				D8D7BF09208556D100F49D88 /* Person.h */,
-				D8D7BF0A208556D100F49D88 /* Person.m */,
+				D8D7BFCF208E78CE00F49D88 /* main.m */,
+				D8D7BFD6208E79B400F49D88 /* Doctor.h */,
+				D8D7BFD7208E79B400F49D88 /* Doctor.m */,
+				D8D7BFD9208E79CA00F49D88 /* Patient.h */,
+				D8D7BFDA208E79CA00F49D88 /* Patient.m */,
+				D8D7BFDC208E974500F49D88 /* prescription.h */,
+				D8D7BFDD208E974500F49D88 /* prescription.m */,
 			);
-			path = ObjectiveCPractice;
+			path = Assignment7;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D8D7BEFB2085467F00F49D88 /* ObjectiveCPractice */ = {
+		D8D7BFCB208E78CE00F49D88 /* Assignment7 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D8D7BF032085467F00F49D88 /* Build configuration list for PBXNativeTarget "ObjectiveCPractice" */;
+			buildConfigurationList = D8D7BFD3208E78CE00F49D88 /* Build configuration list for PBXNativeTarget "Assignment7" */;
 			buildPhases = (
-				D8D7BEF82085467F00F49D88 /* Sources */,
-				D8D7BEF92085467F00F49D88 /* Frameworks */,
-				D8D7BEFA2085467F00F49D88 /* CopyFiles */,
+				D8D7BFC8208E78CE00F49D88 /* Sources */,
+				D8D7BFC9208E78CE00F49D88 /* Frameworks */,
+				D8D7BFCA208E78CE00F49D88 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = ObjectiveCPractice;
-			productName = ObjectiveCPractice;
-			productReference = D8D7BEFC2085467F00F49D88 /* ObjectiveCPractice */;
+			name = Assignment7;
+			productName = Assignment7;
+			productReference = D8D7BFCC208E78CE00F49D88 /* Assignment7 */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D8D7BEF42085467F00F49D88 /* Project object */ = {
+		D8D7BFC4208E78CE00F49D88 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "Kanata Shimomoto";
 				TargetAttributes = {
-					D8D7BEFB2085467F00F49D88 = {
+					D8D7BFCB208E78CE00F49D88 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = D8D7BEF72085467F00F49D88 /* Build configuration list for PBXProject "ObjectiveCPractice" */;
+			buildConfigurationList = D8D7BFC7208E78CE00F49D88 /* Build configuration list for PBXProject "Assignment7" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = D8D7BEF32085467F00F49D88;
-			productRefGroup = D8D7BEFD2085467F00F49D88 /* Products */;
+			mainGroup = D8D7BFC3208E78CE00F49D88;
+			productRefGroup = D8D7BFCD208E78CE00F49D88 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D8D7BEFB2085467F00F49D88 /* ObjectiveCPractice */,
+				D8D7BFCB208E78CE00F49D88 /* Assignment7 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		D8D7BEF82085467F00F49D88 /* Sources */ = {
+		D8D7BFC8208E78CE00F49D88 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D8D7BF0B208556D100F49D88 /* Person.m in Sources */,
-				D8D7BF0820854C8100F49D88 /* Practice.m in Sources */,
-				D8D7BF002085467F00F49D88 /* main.m in Sources */,
+				D8D7BFDB208E79CA00F49D88 /* Patient.m in Sources */,
+				D8D7BFD8208E79B400F49D88 /* Doctor.m in Sources */,
+				D8D7BFD0208E78CE00F49D88 /* main.m in Sources */,
+				D8D7BFDE208E974500F49D88 /* prescription.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		D8D7BF012085467F00F49D88 /* Debug */ = {
+		D8D7BFD1208E78CE00F49D88 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -193,7 +199,7 @@
 			};
 			name = Debug;
 		};
-		D8D7BF022085467F00F49D88 /* Release */ = {
+		D8D7BFD2208E78CE00F49D88 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -241,7 +247,7 @@
 			};
 			name = Release;
 		};
-		D8D7BF042085467F00F49D88 /* Debug */ = {
+		D8D7BFD4208E78CE00F49D88 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -249,7 +255,7 @@
 			};
 			name = Debug;
 		};
-		D8D7BF052085467F00F49D88 /* Release */ = {
+		D8D7BFD5208E78CE00F49D88 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -260,25 +266,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D8D7BEF72085467F00F49D88 /* Build configuration list for PBXProject "ObjectiveCPractice" */ = {
+		D8D7BFC7208E78CE00F49D88 /* Build configuration list for PBXProject "Assignment7" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D8D7BF012085467F00F49D88 /* Debug */,
-				D8D7BF022085467F00F49D88 /* Release */,
+				D8D7BFD1208E78CE00F49D88 /* Debug */,
+				D8D7BFD2208E78CE00F49D88 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D8D7BF032085467F00F49D88 /* Build configuration list for PBXNativeTarget "ObjectiveCPractice" */ = {
+		D8D7BFD3208E78CE00F49D88 /* Build configuration list for PBXNativeTarget "Assignment7" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D8D7BF042085467F00F49D88 /* Debug */,
-				D8D7BF052085467F00F49D88 /* Release */,
+				D8D7BFD4208E78CE00F49D88 /* Debug */,
+				D8D7BFD5208E78CE00F49D88 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D8D7BEF42085467F00F49D88 /* Project object */;
+	rootObject = D8D7BFC4208E78CE00F49D88 /* Project object */;
 }
